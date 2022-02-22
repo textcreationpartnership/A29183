@@ -1,0 +1,390 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The life and death of the godly man exemplified in a sermon preached Nov. 12, 1676, at the funeral of that pious and faithful minister of Christ, Mr. Thomas Wadsworth / by R.B.</title>
+            <author>Bragge, Robert, 1627-1704.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1676</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 56 KB of XML-encoded text transcribed from 21 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A29183</idno>
+            <idno type="STC">Wing B4203</idno>
+            <idno type="STC">ESTC R20214</idno>
+            <idno type="EEBO-CITATION">12116476</idno>
+            <idno type="OCLC">ocm 12116476</idno>
+            <idno type="VID">54326</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A29183)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 54326)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 759:26)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The life and death of the godly man exemplified in a sermon preached Nov. 12, 1676, at the funeral of that pious and faithful minister of Christ, Mr. Thomas Wadsworth / by R.B.</title>
+                  <author>Bragge, Robert, 1627-1704.</author>
+               </titleStmt>
+               <extent>[8], 32 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Joseph Collier ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1676.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Wadsworth, Thomas, 1630-1676.</term>
+               <term>Funeral sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-04</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2013-04</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:54326:1" rendition="simple:additions"/>
+            <p>THE <hi>Life and Death</hi> OF THE GODLY MAN, EXEMPLIFIED IN A SERMON Preached <hi>Nov.</hi> 12. 1676, AT THE FUNERAL OF That Pious and Faithful Miniſter of Chriſt, Mr. <hi>THOMAS WADSWORTH.</hi>
+            </p>
+            <p>By <hi>R. B.</hi>
+            </p>
+            <q>
+               <bibl>
+                  <hi>Iſa. 57. 1,</hi>
+               </bibl> The righteous periſheth, and no man layeth it to heart, and merciful men are taken away, none conſidering, that the righteous is taken away from the evil to come.</q>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Joſeph Collier,</hi> at the <hi>Bible</hi> on <hi>London Bridg.</hi> 1676.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:54326:2"/>
+            <pb facs="tcp:54326:2"/>
+            <head>To the READERS: more eſpe<g ref="char:EOLhyphen"/>cially ſuch as were the Hearers of this Sermon.</head>
+            <p>IF ever I was pulled and haled to any ſervice, it was to this, of preaching and Printing upon this occaſion; not for any want of love to him that is deceaſ<g ref="char:EOLhyphen"/>ed: for I can truly ſay, that I loved him a<g ref="char:EOLhyphen"/>bove any man in the World. But I would have had this laſt Office done for him by one who could have done it better. It's pity He who deſerved a pillar of Marble, ſhould have but a heap of Stones for a Monument.</p>
+            <p>The Truth is, I did ſo often gainſay it, till I began to think it was Pride, and not Mo<g ref="char:EOLhyphen"/>deſty made me ſo much againſt it: for had it been a Sermon larded with Rhetorical ſtrains, and cram'd with Quotations, 'tis very likely I ſhould have been more willing to it's, publi<g ref="char:EOLhyphen"/>cation;
+<pb facs="tcp:54326:3"/>but becauſe out of my meanneſs I could prepare nothing but what was plain and home<g ref="char:EOLhyphen"/>ly, this might make me loath to have my poverty expoſed: but it ſeems I muſt either print, or be printed: which I have choſen to do by the beſt Copy I could get, to prevent the going abroad of a worſer.</p>
+            <p>If any that knew this bleſſed man, find fault that his Picture is no better drawn (as 'tis likely many will) I muſt ſay, It's their fault in part, who did not chuſe one that could have done it better.</p>
+            <p>What is here ſpoken of him, is ſo far from being above, that it is far below that true Worth which was in him. Indeed, who is able to draw the Image of his Mind? the perfections and Beauties of his inner-man? His ſhining gifts? His lively Graces? His love to Truth? His compaſſion to Souls? His zeal for God? His melting Prayers? His affe<g ref="char:EOLhyphen"/>ctionate preaching? his heavenly Diſcourſes? His holy Example, with that warm ſincere Spirit which breathed in him? We can no more draw to the life theſe Divine Colours and li<g ref="char:EOLhyphen"/>neaments of his better part, than we can paint the heat of the Fire, or the brightneſs of the Sun.</p>
+            <pb facs="tcp:54326:3"/>
+            <p> It is an amazing, and I wiſh it may be an awakening Providence to us, that God (ſurely though in anger and diſpleaſure a<g ref="char:EOLhyphen"/>gainſt us) is ſtill ſnatching away his faith<g ref="char:EOLhyphen"/>ful Miniſters from us. No leſs than five or ſix have been laid in the duſt within this five or ſix Months. When ſuch burning and ſhining Lights are put out, have we not cauſe to fear a night of darkneſs coming on? When thoſe that ſhould ſtand in the gap are re<g ref="char:EOLhyphen"/>moved, may not we tremble to think of the wrath that is breaking in upon us? Oh, if you have any Tears in your Eyes, pour them out before the Lord. If you have any groans in your Breaſts, ſend them up to Heaven. If you have any Intereſt at the Throne of Grace, improve it in praying the Lord of the Har<g ref="char:EOLhyphen"/>veſt, that he would ſend forth Labourers into the Harveſt.</p>
+            <p>To conclude, Let us be followers of him, who followed the Lord fully, and is entred in<g ref="char:EOLhyphen"/>to reſt; let us ſtudy and ſtrive to walk be<g ref="char:EOLhyphen"/>fore God with a perfect and upright heart as he did; let us love God and his holineſs as he did; let us do the Will of God, and eye his Glory as he did, and then our end will be peace, as his was.</p>
+            <pb facs="tcp:54326:4"/>
+            <p> If any ſay, but we want his Graces: I ſhall anſwer in ſome of his own dying words: when one ſaid to him, Oh Sir, There are many who could wiſh their Souls in your Souls ſtead: His Reply was: The ſame Grace that ſaveth me, is able to ſave you alſo.</p>
+            <closer>
+               <signed>Your Souls Servant, <hi>R. B.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:54326:4"/>
+            <head>
+               <hi>An</hi> Elegy <hi>upon the death of Mr.</hi> Thomas Wadſ<g ref="char:EOLhyphen"/>worth.</head>
+            <lg>
+               <l>FOnd Scribler! wilt thou venture now to Write,</l>
+               <l>When Age and Tears have ſo obſcur'd thy ſight?</l>
+               <l>Let youthful Muſes dance on Verſes feet,</l>
+               <l>Thy cripled palſey Pen is no way meet</l>
+               <l>For ſuch Heroick ſtrains, as now are due</l>
+               <l>To bleſſed <hi>Wadſworths</hi> memory, who drew</l>
+               <l>His breath but lately with us, but is fled</l>
+               <l>Alas, too ſoon from us; ſome ſay he's dead,</l>
+               <l>But that's too groſs a word; for men profane</l>
+               <l>Dye while they live, but holy men do gain</l>
+               <l>True life by death; thine heavenly winged Dove</l>
+               <l>Hath left us creeping worms, and is above,</l>
+               <l>A Bird of Paradice; bleſt Soul we joy</l>
+               <l>Thine happineſs, but grief muſt us annoy,</l>
+               <l>Poring upon our loſs, which is ſo high,</l>
+               <l>An Handkerchief from Heaven muſt dry our eye,</l>
+               <l>Or elſe our grief may blind us; none can ſtay</l>
+               <l>This Flood from drowning, but the Lord of Day</l>
+               <l>And pitchy Night, whoſe Royalty it is</l>
+               <l>To bring Light out of Darkneſs when he pleaſe.</l>
+               <l>Oh, for a Tranſmigration, that ſo</l>
+               <l>Thine holy Spirit into our Breaſts might flow;</l>
+               <l>This, this, might dam the Water, when we find</l>
+               <l>
+                  <hi>Wadſworths</hi> bleſt Mantle yet is left behind:</l>
+               <l>But wiſhes are the poor mans wealth; we may</l>
+               <l>Deſire this Garment: but our thin array</l>
+               <pb facs="tcp:54326:5"/>
+               <l>Expoſes us to cold and ſtorms, a froſt</l>
+               <l>Is in our Zone; our Torrid Zone is loſt</l>
+               <l>Now thou art gone; thy Zeal provoked much,</l>
+               <l>We only live to wiſh that we were ſuch.</l>
+            </lg>
+            <lg>
+               <l>Farwell dear Friend and Saint, now out of breath,</l>
+               <l>Thine abſence makes us long the more for death.</l>
+            </lg>
+            <closer>
+               <signed>W. T.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:54326:5"/>
+            <head>A Sermon Preached <hi>November</hi> 12, 1676. at the Funeral of Mr. <hi>Thomas Wadſworth.</hi>
+            </head>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>PSAL. XXXVII. 37.</hi>
+                  </bibl>
+                  <p>Mark the perfect man, and behold the upright: for the end of that man is peace.</p>
+               </q>
+            </epigraph>
+            <p>NOT to ſpend time in Prefacing; In the words read, we have theſe Two things worthy our conſideration.</p>
+            <p>
+               <hi>First,</hi> We have here the Life and Death of a godly Man deſcrib'd to us; his Life, ſo he is ſtiled the <hi>perfect</hi> and the <hi>upright Man;</hi> his Death, and ſo his end is ſaid to be <hi>peace.</hi>
+            </p>
+            <p>
+               <hi>Secondly,</hi> We have that which is our duty, in re<g ref="char:EOLhyphen"/>ference to this godly Man; and that is to obſerve him, and to take ſpecial notice of him both living and dying; This is given us in two words: Firſt, <hi>Mark him;</hi> the word ſignifies to mark, as one that is upon a Watch-Tower. And ſecondly, <hi>Behold him,</hi> which ſignifies to behold him narrowly, and exactly: The doubling of the word, ſhews that we ſhould diligently conſider him. This is our duty with re<g ref="char:EOLhyphen"/>ference to the good and godly Man.</p>
+            <pb n="2" facs="tcp:54326:6"/>
+            <p> If you compare this Verſe with the foregoing, you ſhall find that the Prophet does, as it were, draw two Pictures; in <hi>verſe</hi> 35, he draws the Picture of the ungodly man; and he draws him in his beſt attire, he draws him in his beſt colours: <hi>I have ſeen the wicked in great power, and ſpreading himſelf like a green bay tree.</hi> Here you have a goodly picture; but his colours they are all fading, and his beauty and glory is ſoon gone; for ſo it follows at the next verſe, <hi>Yet he paſſed away, and lo he was not; yea, I ſought him, but he could not be found.</hi> He is ſoon wither'd root and branch, all his pomp and bravery it does quickly end in duſt and aſhes.</p>
+            <p>Now in oppoſition to this, the Prophet does here draw the Picture of a godly man, and he gives us theſe two lineaments of him; he calls him the <hi>perfect man</hi> and the <hi>upright;</hi> That is the Picture of his Life: And then he gives us the Picture of his Death too, or of him dying; and ſo his <hi>end is peace. Mark the perfect man, and behold the upright, for the end of that man is peace.</hi>
+            </p>
+            <p>The obſervation or leſſon I ſhall commend to you is this, <hi>It is our duty to obſerve and take ſpecial no<g ref="char:EOLhyphen"/>tice of the good and godly man, both in his life and death.</hi> Such as are holy, gracious, and godly men, it is good for us to obſerve them living and dying; to mark how perfectly and uprightly they live, and behold how peaceably and comfortably they dye.</p>
+            <p>Here are three things to be ſpoken too, 1. The Life of the godly man. 2. His Death. And 3. Our duty with reference to him in both theſe.</p>
+            <p>
+               <hi>Firſt,</hi> Let us a little view the Life of this godly man, as 'tis given us here under theſe two Characters of the
+<pb n="3" facs="tcp:54326:6"/>
+               <hi>perfect man,</hi> and the <hi>upright;</hi> The <hi>perfect man,</hi> who is he? or what is it to be perfect? That is perfect in a ſtrict ſenſe, to which nothing needs be added; and ſo he only is a perfect man, that hath nothing of im<g ref="char:EOLhyphen"/>perfection remaining in him: But then, where ſhall we find this perfect Man? For if <hi>Noah</hi> and <hi>Abraham</hi> had their imperfections, if <hi>Elias</hi> is ſaid to be a Man of like paſſions with us, if <hi>Job</hi> and <hi>David</hi> were not without their defects, where then ſhall we find this perfect man? We muſt therefore diſtinguiſh; Perfection is either ab<g ref="char:EOLhyphen"/>ſolute, or comparative:</p>
+            <p>Abſolute, and ſo they only are perfect, who are free from all ſin and imperfection; and thus the Angels in Heaven, and the ſpirits of juſt men above, are perfect.</p>
+            <p>And Secondly, there is a comparative perfection, and ſo the godly man may be ſaid to be a perfect man, if compared with the wicked, who have no grace at all; or compar'd with the hypocrite, who hath grace only in appearance; or compared with other Saints, who have leſs grace than he.</p>
+            <p>Or ſecondly, we may thus diſtinguiſh it: Perfection is either Legal, ſuch as the Law requires; or Evangeli<g ref="char:EOLhyphen"/>cal, ſuch as the Goſpel accepts of.</p>
+            <p>
+               <hi>First,</hi> Legal perfection, That lies in a ſinleſs obedi<g ref="char:EOLhyphen"/>ence, and an exact conformity to the Law of God; and ſuch a perfect man, is not to be found amongſt men in this World: For the Scripture concludes all men under ſin. <hi>Job</hi> durſt not avouch himſelf to be thus perfect, <hi>Job</hi> 9.20, <hi>If I ſay I am perfect, it ſhall alſo prove me perverſe.</hi> And St. <hi>John</hi> durſt not aver himſelf to be thus perfect, <hi>John</hi> 1 <hi>Epiſt.</hi> 1.8, <hi>If we ſay that we have no ſin, we deceive our ſelves, and the truth is not in us.</hi> To find a Man that hath nothing of darkneſs or
+<pb n="4" facs="tcp:54326:7"/>ignorance remaining on his mind, that hath no evil thoughts or inclinations riſing in his heart, that hath no defects or imperfections in any of his duties and ſer<g ref="char:EOLhyphen"/>vices; you may as ſoon find a man that hath no ill-hu<g ref="char:EOLhyphen"/>mours, no ſeeds of ſickneſs or death in his body.</p>
+            <p>But then, Secondly, There is an Evangelical Per<g ref="char:EOLhyphen"/>fection, ſuch as the Goſpel does accept of; and thus the godly man may be ſaid to be perfect; and that, theſe Two ways.</p>
+            <p>
+               <hi>Firſt,</hi> Perfect as to his juſtification before God through Jeſus Chriſt; a godly man he is perfectly juſti<g ref="char:EOLhyphen"/>fied, that is, his ſins are fully pardoned, they are all blotted out and remitted, as if they had never been committed; he that truly repents, and believes in the Lord Jeſus Chriſt, he hath the perfect righteouſneſs of Chriſt imputed to him; and upon that account is per<g ref="char:EOLhyphen"/>fectly juſtified, he is acquitted from all his ſin. <hi>Who ſhall lay any thing to the charge of Gods elect? Rom.</hi> 8.33. <hi>We are compleat in Chriſt, Col.</hi> 2.10. Compleat in him, not in our ſelves; 'tis in him we have a perfect righteouſneſs for our juſtification before God; in our ſelves we have none, but what is as a filthy rag, and hath a Thouſand bracks and cracks in it.</p>
+            <p>
+               <hi>Secondly,</hi> A godly man may be ſaid to be perfect too, as to his Regeneration and Sanctification, and that in Two reſpects.</p>
+            <p n="1">1. Becauſe he hath the perfect beginnings and ſeeds of all grace and holineſs wrought in him; even as a Child as ſoon as it is born, hath the perfect limbs and lineaments of his Father, eye for eye, and hand for hand, and foot for foot, though he be ſtill capable of further growth and increaſe in every member; and ſo it is with thoſe that are born of God, they have all the
+<pb n="5" facs="tcp:54326:7"/>lines of Gods image drawn upon their ſouls, they have all the limbs of the new creature, repentance towards God, and faith towards our Lord Jeſus Chriſt; love to God, hatred of ſin, and ſo of the reſt, though they are ſtill capable of a higher encreaſe and perfection in every grace; ſo much the Apoſtle intimates, 1 <hi>Theſ.</hi> 5.23, where he prays that God would ſanctifie them through<g ref="char:EOLhyphen"/>out, in Soul, Body, and Spirit: Mark, they are ſancti<g ref="char:EOLhyphen"/>ed in the whole Man, though not wholly; they are ſanctified throughout, though not throughly; there is no faculty of Soul that remains unſanctified, no mem<g ref="char:EOLhyphen"/>ber of Body that remains unſanctified; grace it doth ex<g ref="char:EOLhyphen"/>tend it ſelf, as far as corruption did, unto every part; ſo that the godly man, though he be Regenerate but in part (for we know but in part, and we believe but in part, and love but in part); yet he hath this perfecti<g ref="char:EOLhyphen"/>on, that he is regenerate in every part.</p>
+            <p>And 2. He may be call'd perfect, in regard of the aims and intentions of his deſires and endeavours; for perfection is that which a godly man doth aim at, and which he drives at, as in 2 <hi>Cor.</hi> 7.1, <hi>Let us cleanſe our ſelves from all filthineſs of the fleſh and ſpirit, per<g ref="char:EOLhyphen"/>fecting holineſs in the fear of God.</hi> Mark, he ſpeaks of it, as a work that is continually a doing, it is ſtill in progreſs, and in proficiency; for there is no man that is made perfectly holy at the firſt, as there is no man that is grown a perfect man the firſt day he is born; and thus St. <hi>Paul, Phil.</hi> 3.12, 13, <hi>Not as though I had already attained, or were already perfect: But this one thing I do, forgetting thoſe things which are behind, and reaching forth to thoſe things that are before: I am preſſing onward, &amp;c.</hi> Thus now it is with every god<g ref="char:EOLhyphen"/>ly man, there is no imperfection remaining in him, but
+<pb n="6" facs="tcp:54326:8"/>what he longs to be fully rid of; and no grace and good thing wrought in him, but what he deſires to be fully perfected; he would be emptied of ſin to the very bot<g ref="char:EOLhyphen"/>tom, and filled with grace to the brim; and in this re<g ref="char:EOLhyphen"/>ſpect he may be called <hi>a perfect man:</hi> for in a Goſpel-ſenſe, they that would have no ſin in them, they have no ſin in them; and in a Goſpel-ſenſe, they that deſire and ſtrive after perfection, they are counted perfect. Thus we have done with the firſt term, the firſt Character that is given of a godly man, as he is ſtiled <hi>the perfect man.</hi>
+            </p>
+            <p>Secondly, He is ſtiled the <hi>
+                  <g ref="char:V">Ʋ</g>pright man:</hi> and ſome diſtinguiſh between theſe two, as between the Root and the Fruit, the Fountain and the Streams; Perfe<g ref="char:EOLhyphen"/>ction they refer to the inward ſtate of the Soul; and uprightneſs to outward walking before God and Man: but we need not be very curious in diſtinguiſhing theſe two, for they are often put one for another: and indeed, a Chriſtians perfection, it lies in his upright<g ref="char:EOLhyphen"/>neſs; and therefore <hi>Aſa,</hi> and <hi>Job,</hi> and <hi>David,</hi> are ſaid <hi>to walk before God with a perfect heart;</hi> that is, with an upright heart. Now then to be upright, it is to be downright in Religion, to be plain-hearted and ſingle-ſpirited in what we do; when we are true to our profeſſion, and real in what we do; and thus <hi>Jacob</hi> is ſaid to be a <hi>plain man;</hi> that is, a perfect and an upright man, without any foldings or doublings in his ſpirit: 'tis oppos'd to Hypocriſie and falſe-heartedneſs, to diſſimulation and empty ſhows in Religion; as the <hi>Phaeriſees</hi> you know they made great ſhows in Reli<g ref="char:EOLhyphen"/>gion, they did many things, but they were falſe-heart<g ref="char:EOLhyphen"/>ed in all that they did; they made long Prayers, but it was under a colour to devour Widows houſes: they gave Alms, but it was to be ſeen of men: they had
+<pb n="7" facs="tcp:54326:8"/>by-ends, baſe and ſiniſter reſpects in all that they did; they did ſeek themſelves, and ſerved themſelves in their ſerving of God; they did not do it out of con<g ref="char:EOLhyphen"/>ſcience and obedience to God, to pleaſe God, to ho<g ref="char:EOLhyphen"/>nour God, to enjoy God, this was the dead Fly in all their Ointment, this was the Leven that did ſowr all their Services: for without this inward Truth and uprightneſs of heart, all that we do in Religion, is nothing at all; our moſt glorious performances they are but abominations in the ſight of God, if there be not this Truth within, if they be not done out of con<g ref="char:EOLhyphen"/>ſcience and obedience to God; it is the ſame with that ſimplicity and ſincerity you read of, 2 <hi>Cor.</hi> 1.12, <hi>In ſimplicity and godly ſincerity we have had our converſation in the world. In ſimplicity;</hi> not a fooliſh ſimplicity, but a godly ſimplicity, as God is ſaid to be a Simple Eſſence without mixture; ſo <hi>Pauls</hi> ſimplicity was without all mixture of guile, or fraud, or deceit in what he did. I might ſhew you what are the Ingre<g ref="char:EOLhyphen"/>dients of this Uprightneſs; when it is that we do act in the uprightneſs of our hearts.</p>
+            <p>Firſt, Love to God, that muſt be the ſpring and principle from whence all comes: for if we do not love God, we ſhall not ſeek to pleaſe him in what we do; and if we do not love God, God will not be pleaſed with us neither, in what we do; for what are all our performances to God, if they do not ſlow from Love? and how can we love him, except we know that he hath lov'd us firſt? and therefore there muſt be Faith ap<g ref="char:EOLhyphen"/>prehending the love of God in Jeſus Chriſt, at the bottom of all, without which all that we do in Reli<g ref="char:EOLhyphen"/>gion is but Morality.</p>
+            <p>And ſecondly, The Will of God muſt be the Rule
+<pb n="8" facs="tcp:54326:9"/>of what we do: for it is not properly a duty or ſervice done to God, if it be not done in obedience to his Will. What Maſter will be ſerved by his Servant as his Servant will? if in our ſerving and worſhipping of God, we ſerve him according to our own will, and not his Will; we do but ſerve our ſelves, and not God; nay, indeed we do but ſet up our ſelves in the room of God.</p>
+            <p>And Thirdly, The Glory of God that muſt be the end of all: not that we may have praiſe and glory from men, but that God in all things may be glorified by us: if we have any good thing in us, it is from the grace of God that we receive it; and if there be any good thing done by us, it is by the grace of God we are en<g ref="char:EOLhyphen"/>abled to do it; and therefore the glory, and the honour of all that we have and do, belongs to God. The up<g ref="char:EOLhyphen"/>right man he is always an humble man, he hath the low<g ref="char:EOLhyphen"/>eſt and meaneſt thoughts of himſelf of any in the World; he hath to do with God in all that he doth, and ſo he can ſee the defects that are in himſelf, and in his ſervices: and therefore when he hath done all, he doth acknowledg that he is but an <hi>unprofitable ſervant.</hi> Thus you ſee who this Upright man is; he is one that doth ſtudy to approve his heart unto God, more than his ways and actions to men.</p>
+            <p>We might here ſhew you what are the ſigns and evi<g ref="char:EOLhyphen"/>dences of this uprightneſs of heart; but I muſt not en<g ref="char:EOLhyphen"/>gage too far in that. All that I will ſay, is this, There are two Verſes in <hi>Davids</hi> Pſalms, if you are able to re<g ref="char:EOLhyphen"/>peat them, and your hearts not give your tongues the lye in the ſaying of them, it will be a great proof and evidence of your uprightneſs: the one is that in the 139 Pſalm, <hi>ver.</hi> the laſt. <hi>Lord, ſearch me and try me; and
+<pb n="9" facs="tcp:54326:9"/>ſee iſ there be any way of wickedneſs in me.</hi> If you can thus pray to God, that God would try you, and ſearch you, and ſee if there be any corruption in you that does endanger your Salvation, this is a great ſign of your Uprightneſs. That is a ſure Rule: He that repents truly of any Sin, he does repent of every Sin, for every Sin hath the nature of all Sin in it; and therefore he that ſays, This Sin I muſt reſerve; herein the Lord be merciful to me: this pride, this luſt of mine I would have ſpar'd, as <hi>Saul</hi> ſpar'd the fatteſt of the Cattel, and as <hi>David</hi> would have the young man <hi>Abſalom</hi> dealt gently withal; he is no upright man. The other Text is <hi>Pſalm</hi> 119.6, <hi>Then ſhall I not be aſhamed, when I have reſpect to all thy Commandments:</hi> Mark, true Upright<g ref="char:EOLhyphen"/>neſs it hath an eye to all Gods Commandments: to all that is good, to know the whole Will of God, and to practice it; He does not pick and chuſe amongſt the Commandments of God: he that truly makes conſci<g ref="char:EOLhyphen"/>ence of one Command, makes conſcience of every Com<g ref="char:EOLhyphen"/>mand; partial Obedience, it is hypocritical Obedi<g ref="char:EOLhyphen"/>ence. So that here now is your Trial, Chriſtians, when there is no Sin that you would have hid from Gods eye, and no Duty that you would have hid from your eye; when there is no Sin which God reveals to you to be a Sin, but your hearts are againſt it; and no Duty which God reveals to be your Duty, but your hearts are for it; when you make conſcience of the leaſt known Sin, and of the leaſt known Duty; this, and nothing leſs than this, will prove your Uprightneſs, will prove your Sincerity. I will add but one thing more, and ſo I ſhall have done with this firſt part of the Text: it is to mind you of that Scripture you have
+<pb n="10" facs="tcp:54326:10"/>in <hi>Eccleſiastes</hi> 7.29, <hi>God made man upright at firſt, but he ſought out many inventions.</hi> This Uprightneſs, my Brethren, was a part of that perfection wherewith Man was endow'd in his Primitive ſtate: but man had no ſooner fallen, but preſently he diſcovered the dou<g ref="char:EOLhyphen"/>bling of his Spirit with God, and ſeeks for hidings and coverings to himſelf: Since the fall, our hearts are as full of this deceit, this falſhood, as ever they can hold: <hi>the heart of man is deceitful and deſperately wicked</hi> a<g ref="char:EOLhyphen"/>bove all that we are able to know; we have the poi<g ref="char:EOLhyphen"/>ſon of the Serpent in us, and are become full of turn<g ref="char:EOLhyphen"/>ings and windings: you may ſee it in your little Chil<g ref="char:EOLhyphen"/>dren, one of the firſt things they learn, is to lye, and to equivocate, and to excuſe, and to hide things, and to play the Hypocrites: I ſay, we have it all in us by Nature. By Nature we do ſeek our ſelves, and aim at our ſelves in all we do, and not God. Do not think that the <hi>Phariſees</hi> only were prone to this Hypocriſie, to draw nigh to God with their lips, and to have their hearts far from him, or to do Duties to be ſeen of men. I tell you, we have every one a <hi>Phariſee</hi> in our bellies; therefore we have need to beg of God that he would make us upright again, and to pray as <hi>David</hi> did; <hi>Lord, create in me a new heart, and renew a right ſpirit within me.</hi>
+            </p>
+            <p>I come now to ſpeak of his death, and I ſee I muſt be ſhorteſt there, where I thought to have been longeſt; ha<g ref="char:EOLhyphen"/>ving been longeſt already, where I intended to be ſhort<g ref="char:EOLhyphen"/>eſt: well, the end of this man is <hi>peace.</hi> His end is <hi>peace</hi> in a twofold oppoſition: Firſt, To a wicked man, though his life may be pleaſant, and his way ſmooth and ſtrew'd with Roſes, yet his end is bitterneſs; his Death-bed
+<pb n="11" facs="tcp:54326:10"/>ſtuft with Thorns; as the Cloud which had a bright ſide toward the <hi>Iſraelites,</hi> had a dark ſide to the <hi>Egyp<g ref="char:EOLhyphen"/>tians:</hi> ſo Death, that hath a bright ſide to a godly man, it hath a dark and blackſide towards a wicked man: as they ſay in Logick, the concluſion always follows the worſer part; So it is with the wicked, his concluſion follows the worſer part of his pre<g ref="char:EOLhyphen"/>miſes.</p>
+            <p>Secondly, His end is <hi>peace,</hi> in oppoſition to his own life; Perhaps a godly mans life may be full of trouble; he may meet with many Temptations, with great Trials, but his end is <hi>peace;</hi> he ſhall be brought to a quiet Port, and land on a ſhore of Reſt.</p>
+            <p>But how is a godly mans <hi>end peace?</hi> and why is it <hi>peace?</hi> Let me ſpeak a little of theſe two. How is his <hi>end peace?</hi> His <hi>end is peace</hi> theſe five ways:</p>
+            <p>Firſt, If you take Peace for Peace with men, ſo his end is Peace; he doth endeavour as much as in him lies to live peaceably with all men; and he deſires to die in peace with all men: As he did not live in Quar<g ref="char:EOLhyphen"/>rels, ſo he doth not die in Quarrels; he doth not ſuf<g ref="char:EOLhyphen"/>fer the Sun of his Life to go down upon his Wrath. Poſſibly men are at War with him, malign him, perſe<g ref="char:EOLhyphen"/>cute him, even unto death, as they did <hi>Stephen;</hi> yet he is at amity with them, and prays, <hi>Lord lay not this ſin to their charge:</hi> And with Chriſt, <hi>Father forgive them, for they know not what they do;</hi> He hath learnt that Leſſon which Nature will never teach a man, Matth. 5, <hi>To love his Enemies,</hi> to <hi>bleſs them that curſe him,</hi> to <hi>pray for them which deſpightfully uſe him.</hi>
+            </p>
+            <pb n="12" facs="tcp:54326:11"/>
+            <p> Secondly, They have peace with Angels: for when they die, theſe bleſſed Spirits do conduct and accom<g ref="char:EOLhyphen"/>pany their departing Souls unto <hi>Abrahams boſom,</hi> Luke 16.22; and at the Reſurrection will gather together the bodies of the Elect from all corners of the Earth, where their duſt hath been ſcattered. <hi>Heb.</hi> 1.17, We read how Angels, who are Executioners of Gods Judg<g ref="char:EOLhyphen"/>ments upon the wicked, do ſtand ready to a<g ref="char:EOLhyphen"/>venge the quarrel of God upon his Enemies; as <hi>Joab</hi> the Captain of <hi>David</hi>'s Hoſt was ready to have taken off <hi>Shimei</hi>'s head when he curſed the King, if he had but ſaid the word. Theſe Angels which are the Hoſts of God, are ſent forth as miniſtring Spirits, as friends to the Saints.</p>
+            <p>Thirdly, His <hi>end is peace</hi> with God, God is recon<g ref="char:EOLhyphen"/>cil'd to him, and he is reconcil'd to God and to all his ways: <hi>being justified by faith, we have peace with God;</hi> no more anger in his Boſom, no more frowns in his Face towards him, but all his anger is turned in<g ref="char:EOLhyphen"/>to Love. Oh that <hi>peace of God which paſſeth all un<g ref="char:EOLhyphen"/>derſtanding,</hi> that fills his heart and mind! What a ſweet thing is it, my Brethren, to be at peace with that God whom we have ſo offended by our Sins? to have his Face ſmiling upon us, and his Arms embra<g ref="char:EOLhyphen"/>cing us? Who knows the ſweetneſs of ſuch ſmiles, but thoſe that have felt his frowns? therefore Chriſt calls them <hi>his Friends:</hi> for a man when he lies ſick, to have the boſom of a reconciled God and Father to be his pillow; and when he dies, to die in the Arms of Chriſt, this muſt make it ſweet dying indeed.</p>
+            <p>
+               <hi>Fourthly,</hi> He hath peace in his own Conſcience, peace in his own Boſom: <hi>This is our rejoycing, the teſtimony
+<pb n="13" facs="tcp:54326:11"/>of a good conſcience;</hi> and that bird in the boſom, does oftentimes ſing moſt ſweetly, when the man draws neareſt to his death. <hi>Great peace have they that love thy law,</hi> ſays the <hi>Pſalmiſt, and nothing ſhall offend them; thou wilt keep him in perfect peace, whoſe mind is ſtay<g ref="char:EOLhyphen"/>ed on thee.</hi> This follows upon our reconciliation with God, peace of Conſcience, that is more worth than a Thouſand worlds; and to have Conſcience to be our enemy, continually accuſing and upbraiding of us, ſtriking us with fear; to have the worm gnawing in the Soul, before the worms are feeding on the fleſh; This is a continual dropping, this is an Hell upon earth: As a good Conſcience is a Heaven begun, ſo an evil guilty Conſcience is a Hell begun. That is a fourth thing they have, peace of Conſcience; as the ſting of death is taken away, ſo the ſting of Conſcience is taken away likewiſe.</p>
+            <p>
+               <hi>Fifthly</hi> and laſtly, His end is peace, for he enters into peace, into full and perfect peace; ſo in <hi>Iſaiah</hi> 57.1, 2, Where the Prophet is bemoaning the righteous mans death, that no man lays it to heart, he ſhews, that they need not lay his death to heart, in reference to him; for he enters into peace. And ſo <hi>Simeon,</hi> Luk. 2.29, 30, <hi>Lord, now letteſt thou thy ſervant depart in peace ac<g ref="char:EOLhyphen"/>cording to thy word, for mine eyes have ſeen thy ſalva<g ref="char:EOLhyphen"/>tion; and bleſſed are the dead that dye in the Lord, for they rest from their labours.</hi> In the Third Region, the upper Region of the Air, they ſay there are no Clouds nor Storms, no Thunder nor Lightning. In the Third Heavens, in thoſe coeleſtial Manſions, I am ſure there are no troubles, no ſtorms, no fears, no tem<g ref="char:EOLhyphen"/>ptations, but everlaſting reſt and peace. But why is this Mans end peace? It muſt needs be peace with
+<pb n="14" facs="tcp:54326:12"/>him in the <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> for the God whom he ſerves, he is <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>, and the Chriſt in whom he be<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#UOM" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> the <hi>Prince of peace,</hi> and the Spirit that dwells in <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, <hi>the fruits of that ſpirit is joy and peaces,</hi> and the Goſpel that is Prach'd, it is call'd <hi>the <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </hi> and the Miniſters that are his Teach<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#UOM" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> the <hi>Ambaſſadors of peace:</hi> their work is <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> publiſh peace; and the Kingdom of God in which they are, or rather which is in them, it does conſiſt in <hi>peace, in righteouſneſs,</hi> and <hi>joy in the holy Ghoſt,</hi> and <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Covenant that is between God and them, it is a <hi>Covenant of peace;</hi> and the great Bene<g ref="char:EOLhyphen"/>diction and bleſſing of the Goſpel, it is <hi>grace and peace;</hi> and they themſelves are ſtiled <hi>the ſons of peace,</hi> and <hi>the children of peace;</hi> and therefore they muſt needs have peace in the end.</p>
+            <p>I muſt not ſpeak to all theſe, I will content my ſelf, only with theſe two grounds of the point.</p>
+            <p>
+               <hi>Firſt,</hi> A godly mans end muſt needs be peace upon this ground; Becauſe Jeſus Chriſt hath made his peace, procur'd his peace, and left peace to him; he made peace for us, <hi>Col.</hi> 1.2<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, <hi>Having made peace through the blood of his croſs;</hi> and <hi>the chaſtiſement of our peace was upon him.</hi> Sin had made a breach between Hea<g ref="char:EOLhyphen"/>ven and Earth, and Chriſt comes to ſtand in the gap, and take up all quarrels<g ref="char:punc">▪</g> and therefore having made peace, when <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> to dye, he bequeath'd peace to all his people as their <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, <hi>Joh.</hi> 4.27, <hi>Peace I leave with you, <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> unto you, not as the world <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> your heart be troubled, nei<g ref="char:EOLhyphen"/>ther <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>.</hi> And the Spirit, the Holy Ghoſt, <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ecutor, who is a faithful <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> peace to the Soul; he is the
+<pb n="15" facs="tcp:54326:12"/>Dove that brings this Olive-branch of peace to the Soul, to tell us that the Waters of Gods anger are al<g ref="char:EOLhyphen"/>ſwag'd.</p>
+            <p>
+               <hi>Secondly,</hi> The end of a godly man muſt <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> peace too upon this account. Becauſe all <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> are remov'd and taken out of the way, <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> his peace; Sin and Satan, the two <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> and diſturbers of our peace, are taken <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>.</p>
+            <p n="1">1. Sin: What makes God frown upon <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> and what makes us afraid of God, but <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> ſaith Chriſt, <hi>thy ſins are forgiven thee:</hi> And when ſin, the cauſe of the breach, is remov'd, then peace muſt needs follow: Now all ſin is fully pardon'd and for<g ref="char:EOLhyphen"/>given to the godly Man; God hath remov'd his ſins from him, as far as the Eaſt is from the Weſt; What then ſhould hinder his peace? And as there is no ſin that is left unpardon'd by God, ſo there is no ſin that is unrepented of by the godly Man, and therefore peace muſt needs follow: when God puts away our ſin by pardoning it, and we put away our ſin too by repent<g ref="char:EOLhyphen"/>ing of it, then peace follows: God puts away our ſins, as far as the Eaſt is from the Weſt, ſo as <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> to re<g ref="char:EOLhyphen"/>member them more; and when we part away our <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> as far as the Eaſt is from the Weſt, ſo as never to return to them any more, <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> follows peace indeed. While ſin is unrepented of, never look for peace when any ſin is indulg'd in the Soul, there cannot be peace with God, whiles we are at peace with any ſin; one known ſin kept up in thy heart, is enough to breed an everlaſt<g ref="char:EOLhyphen"/>ing war between God and thy Soul: But now, when God puts away ſin by pardoning and we put away all ſin, by repenting and renouncing <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> every weapon of war, then peace <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>.</p>
+            <p n="2">
+               <pb n="16" facs="tcp:54326:13"/> 2. And then the Devil who is the great Accuſer of the Brethren, and Enemy of our peace, he is de<g ref="char:EOLhyphen"/>ſtroy'd, <hi>That by death he might deſtroy him that had the power of death, that is the Devil,</hi> Heb. 2.14. What power hath the Devil over Death, not of a Judg, but of a Jaylor and Executioner, having deſtroyed him? How is the Devil deſtroyed by Chriſt, not as to his being, but power, which he had to make Death ter<g ref="char:EOLhyphen"/>rible? Well then, if Sin be taken out of the way, and the Devil be deſtroyed too, then peace muſt needs follow to the godly man. I know there is an Obje<g ref="char:EOLhyphen"/>jection may be made.</p>
+            <p>You ſay, that the godly man hath peace <hi>in his end:</hi> What, are there not ſome whom we have cauſe to judg are perfect and upright men, and yet have died far from this peace; they have ſet in a Cloud, died in a dark and diſconſolate ſtate?</p>
+            <p>For anſwer to that, I will only ſay theſe two things: Firſt, That the moſt general Rule may have ſome ex<g ref="char:EOLhyphen"/>ceptions; though this be laid down as a general Rule in Scripture, yet God may make ſome exceptions to it; it is poſſible a good conſcience may be an unquiet conſcience, though 'tis a rare thing for a godly man to die without any peace; for <hi>the righteous hath hope in his death.</hi>
+            </p>
+            <p>Secondly, I ſay, That though a godly man may not always have peace in his death as to his own ſenſe and apprehenſion, yet his ſtate is a ſtate of peace and re<g ref="char:EOLhyphen"/>conciliation with God; though his peace be not al<g ref="char:EOLhyphen"/>ways clear, yet it is always ſure. A wicked man may have no bonds in his death, and yet his eſtate may be never the better for that; and a godly man may ſometimes die full of fears and tremblings, and yet his eſtate
+<pb n="17" facs="tcp:54326:13"/>be never the worſe for that. He hath matter for peace, and his trouble is for want of underſtanding things aright: though he ſets in a Cloud in this life, yet he riſes without a Cloud in the other life.</p>
+            <p>There is a third part of the Doctrine behind that I ſhould have ſpoken to, and that is our Duty — <hi>to mark this perfect man,</hi> and <hi>behold this upright man:</hi> And I might have ſhown you wherein we ſhould mark him.</p>
+            <p>Mark him, 1. In his <hi>Ingreſs,</hi> in his entrance upon the ways of God; mark him in his converſion to God, in his turning from ſin to God.</p>
+            <p n="2">2. Mark him in his <hi>Progreſs,</hi> how he holds on in the ways of God, how he walks with God.</p>
+            <p>
+               <hi>Thirdly,</hi> Mark him in his <hi>Regreſs,</hi> how he returns a<g ref="char:EOLhyphen"/>gain; if at any time he go out of the way, if he do fall, and be overtaken, how he riſes again by repent<g ref="char:EOLhyphen"/>ance: Mark how he confeſſes his ſius, and ſincerely be<g ref="char:EOLhyphen"/>wails them, and does not excuſe them as <hi>Saul</hi> did.</p>
+            <p>And Laſtly, Mark him in his <hi>Egreſs,</hi> how he goes out of the World, how he dyes; and if the dying ſpeeches of Gods Children had all been recorded, it would have been a Book more worth than Gold: In all theſe reſpects, there are many things in the godly that are worth our obſervation; the truth is, there is no man elſe in the World that is hardly worth the looking at, but the Godly man: As the Prophet ſaid to that great King, 2 <hi>Kings</hi> 3.14, <hi>As the Lord of Hoſts liveth, be<g ref="char:EOLhyphen"/>fore whom I ſtand, were it not that I regard the preſence of Jehoſhaphat the King of Judah, I would not look to<g ref="char:EOLhyphen"/>wards thee, nor ſee thee.</hi> Though he was a great King, yet he was but a contemptible piece in the Prophets eye, becauſe not a godly Man. We are apt to gaze
+<pb n="18" facs="tcp:54326:14"/>upon the great ones of the World, to look at them, becauſe of their Greatneſs, and Riches, and Honours; but the truth is, only the godly man is worth looking at, this is the Man that God looks at: <hi>To this man will I look,</hi> ſaith God, as if he were taken with the ſight.</p>
+            <p>I might ſhew you too, to what end we ſhould mark the godly Man: Not as <hi>Daniel</hi>'s enemies markt him, to ſee if they could find him tripping; and not as many that mark <hi>David,</hi> to encourage themſelves to ſin: But we are to mark him, as the Apoſtle directs us, <hi>Phil.</hi> 3.17, <hi>Mark ſuch, that you may follow their example.</hi> And then how far we are to follow the example of the godly, <hi>Be followers of me,</hi> ſaith the Apoſtle, <hi>as I am of Christ.</hi> But I cannot ſtand upon theſe things.</p>
+            <p>
+               <hi>
+                  <g ref="char:V">Ʋ</g>ſe</hi> Firſt, This might ſhew us the happineſs of the godly Man: we uſe to ſay, <hi>That is well that ends well;</hi> then ſure it will be well with the godly Man, for he ends well, his end is peace, he enters into peace; and what a com<g ref="char:EOLhyphen"/>fortable thing it is to ſtand by the Bed-ſide of a godly Man, to hear how comfortably he talks of going to God? <hi>I know,</hi> ſays he, <hi>whom I have believed;</hi> and how familiarly he can ſpeak of Death; <hi>Oh Death where is thy ſting!</hi> And with what deſires and longings he waits for his great change; <hi>I ſhall but change my place, I ſhall not change my company.</hi> And with what quiet<g ref="char:EOLhyphen"/>neſs he can lye down in the Grave; with as much qui<g ref="char:EOLhyphen"/>etneſs as he can put off his Clothes to lye down in his Bed: For indeed, the Grave is but the Bed of a god<g ref="char:EOLhyphen"/>ly Man, where he lies down to ſleep; he is glad that the time of his departure is ſo nigh, and can ſay, Come ye Angels, and do your office.</p>
+            <p>Secondly, This would inform us of the miſery of
+<pb n="19" facs="tcp:54326:14"/>wicked and ungodly men, it is the perfect the upright Man whoſe end is peace: What then is like to be the end of the ungodly? <hi>What peace,</hi> as he ſaid, <hi>ſo long as the whoredoms of thy mother Jezebel remain?</hi> So, what peace can there be to thee, ſinner, whiles thou art going on in ways of wickedneſs, whiles thou art a lover of thy pleaſures, a lover of thy luſt, a lover of theſe more than a lover of God? You know that ſpeech of the Prophet <hi>Iſaiah, There is no peace, ſaith my God, to the wicked.</hi> It is not I, but God that ſays it, ſays the Pro<g ref="char:EOLhyphen"/>phet; falſe Prophets may cry peace, peace, to you, ſay<g ref="char:EOLhyphen"/>ing, you may repent at laſt, and do well enough; and your own hearts may cry peace, peace to you, God is merciful, and all are ſinners as well as we: I, but <hi>there is no peace to the wicked, ſays my God.</hi> God hath ſaid it, That men going on in ways of wickedneſs, there is no peace to them; but it will be bitterneſs in the latter end: Such a one will ſay, oh! what will become of me? what ſhall I do? which way ſoever thou lookeſt, thou canſt ſee nothing but that which may diſquiet thy poor Soul: If thou lookeſt above thee, there is the wrath of an Almighty Inſinite God hanging over thy head; if thou look'ſt within thee, there is a guilty Con<g ref="char:EOLhyphen"/>ſcience accuſing thee; if thou look'ſt beneath thee, there is the bottomleſs pit gaping on thee, ready to de<g ref="char:EOLhyphen"/>vour thee; ſo that which way ſoever thou look'ſt, a<g ref="char:EOLhyphen"/>bove thee, beneath thee, within thee, without thee, thou canſt ſee nothing but blackneſs, and darkneſs. There are other Uſes might be made of it, but I muſt paſs them by, that I might ſpeak a little to the occaſion of this Diſcourſe.</p>
+            <pb n="20" facs="tcp:54326:15"/>
+            <p> MY Brethren, the Text that we have now open'd to you, I may truly ſay, hath been fulfil'd before your eyes in the Life and Death of this precious Saint and Servant of God, that is taken from you: I might go over the Text again, and ſhew you how he was this perfect Man; whether you look upon him as a Man, or as a Chriſtian, or as a Miniſter, he had thoſe perfections in him that did render him belov'd and honour'd by all that knew him; and if there be any that had not a reſpect and value for him, it was be<g ref="char:EOLhyphen"/>cauſe they did not know him: He was no em<g ref="char:EOLhyphen"/>pty-Cask, but a Veſſel filled with choice and precious Liquor, as appeared by thoſe gracious and ſavoury Diſcourſes, which did ſo often come from him. As to the Gifts and Graces of Gods Spirit, he had them both in a very high degree of perfection; he was both able to teach, and apt to teach, which is but a rare conjuncti<g ref="char:EOLhyphen"/>on; for many that are moſt able to teach, are not always moſt apt and ready to teach; and ſome that are moſt apt and forward to Teach, they are not always moſt able to Teach; he had a ſpring of living waters within him. In his Prayers and Preaching, he need not Pump, for they did flow from him as waters out of a full
+<pb n="21" facs="tcp:54326:15"/>Fountain; out of the abundance of his heart, we may truly ſay, he did both Preach and Pray: God had given him the Tongue of the Learned, whereby he was able to ſpeak a word in ſeaſon upon all occaſions.</p>
+            <p>The Word of God did dwell ſo richly in him, that he needed not any long time in pre<g ref="char:EOLhyphen"/>paration, but could ſpeak to any Subject both pertinently and profitably upon very ſhort warning.</p>
+            <p>He was one fitted, not only to declare the Truth, but to defend the Truth; witneſs that book of his concerning the <hi>Immortality of the Soul.</hi> He was mighty in Prayer, and powerful in Preaching. I have often thought he had a more than ordinary preſence of God in all that he did.</p>
+            <p>But ſecondly, He was this <hi>upright man;</hi> and indeed, his great perfection lay in that uprightneſs and integrity of Spirit that ap<g ref="char:EOLhyphen"/>pear'd in him. In all that he did, he did not ſeek himſelf, or ſerve himſelf of the Goſpel; he had his eye to his Maſters glory, and not to his own gain or glory: though he had the overſight of two Congregations, yet he did not take the overſight of them for filthy lucres ſake. I ſuppoſe many here can bear him wit<g ref="char:EOLhyphen"/>neſs, that he made not one penny of profit in
+<pb n="22" facs="tcp:54326:16"/>the Year, but rather ſpent many pounds upon their ſervice. God had bleſt him with an E<g ref="char:EOLhyphen"/>ſtate of his own, and he rejoyc'd to preach the Goſpel freely; though he had a double Care and a double Charge upon him, yet he had not a double Benefit: he could truly ſay, as <hi>Paul,</hi> Act. 20.33, <hi>I have coveted no mans ſilver or gold;</hi> no, it was the holy lucre of gaining of Souls to Chriſt that his heart did moſt co<g ref="char:EOLhyphen"/>vet, and therein God gave him the deſire of his heart. His Miniſtry was not blaſted with dry breaſts, and a miſcarrying womb; but as he travelled with the ſalvation of Sinners, ſo he ſaw the fruit of the travel of his Soul, and was ſatisfied; as he laboured abundantly in the work of the Lord, ſo God proſpered and bleſ<g ref="char:EOLhyphen"/>ſed his labours abundantly. He did not run in vain, pray in vain, preach in vain: God made him a bleſſed Inſtrument of good, of Eternal good to many Souls. And he did as little mind the praiſe and glory of this World, as he did the profits and gain of it. He ſought his honour in God only, and was carry'd forth with pure aims and reſpects to his glory. I have ſometimes heard him profeſs, that he ſcarcely knew what it was to lie under the temptation of deſiring the praiſe and commendations of men in what he
+<pb n="23" facs="tcp:54326:16"/>did. He ſaw ſuch an emptineſs in all humane applauſe, and had his eye ſo fixt upon his Ma<g ref="char:EOLhyphen"/>ſters glory, that it put out all vain humane glory in his eſtimation. I have often admir'd him for the good things of the Spirit of God that I ſaw in him: for that ſpirit of Faith that dwelt in him: he liv'd in as firm and lively belief of the Eternal and inviſible things of the other World, as any man that ever I knew: For that Spirit of Adoption that reſted upon him (for he was as much above the ſpi<g ref="char:EOLhyphen"/>rit of Fear and Bondage, as any man that ever I knew); For that Spirit of Heavenly-mindedneſs that he liv'd in continually: He had his heart and converſation in Heaven, as much as any man that ever I knew: For that Spirit of holy Courage he was fill'd with<g ref="char:EOLhyphen"/>al: for he was one that would ſtand for God in the worſt of times: and when he judg'd that the Cauſe and Truth of God required it, he would not be daunted and driven from his Duty by the fear of men.</p>
+            <p>But above all, his glory and Excellency lay in this, the uprightneſs and integrity of his ſpirit, that he ſerv'd his Lord and Maſter with ſuch a ſingle eye, and ſuch a ſingle heart. I have ſometimes ſeen him rejoyce in ſpirit, and
+<pb n="24" facs="tcp:54326:17"/>ſpeaking of the great comfort that he found in his Soul upon this account; that his Con<g ref="char:EOLhyphen"/>ſcience did bear him witneſs, that he ſought the glory of God in what he did, above all the world, and expected his reward from God only; I have often thought, that if ever I ſaw an <hi>Iſrae<g ref="char:EOLhyphen"/>lite</hi> indeed in <hi>whom was no guile,</hi> he was one.</p>
+            <p>And as he was thus perfect and upright in his life, ſo his end was peace and bleſſedneſs: I ſaw him only the Evening before he died, and asked him how he did? He anſwered me, <hi>That he had been under a very ſharp rod; But it was that which my heavenly Father</hi> (ſaid he) <hi>hath laid upon me; for as many as I love, I re<g ref="char:EOLhyphen"/>buke and chaſten: that is a Paradox,</hi> ſaid he, <hi>to the world; but everlaſting Arms are underneath me: and I bleſs God he hath taken all the terror of Death quite away from me.</hi> And when ano<g ref="char:EOLhyphen"/>ther asked him, If he had not the reſtimony and witneſs of a good Conſcience; he would ſay, <hi>Truly, I have ſerved God in ſincerity; and can truly <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> I have believed, and therefore have I ſpoken.</hi> then thoſe that were about him, pitied him becauſe of his great pains and Ago<g ref="char:EOLhyphen"/>nies: <hi>You know not,</hi> ſaid he, <hi>what my pains are, and you know not what my Conſolations are! Oh, how ſweet will my glory and triumph be af<g ref="char:EOLhyphen"/>ter
+<pb n="25" facs="tcp:54326:17"/>theſe ſharp pains!</hi> And when his Relations wept about him, he would be diſpleaſed with them, ſaying, <hi>What, are you troubl'd that God is calling home his Children? If you think I am afraid of Death, you are miſtaken, for I have no fear of death upon me.</hi> He had not the leaſt Cloud upon his ſpirit in all his ſickneſs, that could be perceived by thoſe about him. And in the midſt of the ſharpeſt pains (which could not but be very ſharp, by a large ſtone in his blad<g ref="char:EOLhyphen"/>der and kidneys: one of them being waſted, and the other extreamly ſwoln); under all his pains, no other language came from him, but, <hi>Father pity thy Child.</hi> But I ſee I muſt break off: for the clouds return again after the rain, &amp; the waters are ready to overflow the banks, and I would not have you drown'd in tears: What ſhall I ſay, my Brethren? precious in the ſight of God is both the life and death of his Saints: the me<g ref="char:EOLhyphen"/>mory of the righteous ſhall be bleſſed; the name of holy men it is as a precious Ointment pour<g ref="char:EOLhyphen"/>ed forth, and ſo is the name of this holy man. We need not bring any Spices to embalm him, we need not raiſe him up any Tomb or Monu<g ref="char:EOLhyphen"/>ment: he hath a better Monument erected in the hearts of Gods people, and of God him<g ref="char:EOLhyphen"/>ſelf, than any we are able to erect unto him.
+<pb n="26" facs="tcp:54326:18"/>This I muſt ſay, and this is all that I will ſay, I verily believe there are few men that have been more belov'd whileſt they lived, or more bewail'd when they died. Though the day of his Funeral was a clear Sunſhine day without any Clouds, yet I am ſure there were many ſhowrs of Tears that fell by the way as he was paſſing to his grave. I ſhould have ſpoken ſomething to thoſe that are left behind.</p>
+            <p n="1">1. To his Relations, a word to them: Do not you mourn as thoſe that are without hope; why ſhould your eyes be pouring out tears for him, when all tears are wip'd from his eyes? he is with God and Chriſt, and the innumerable company of Angels, <hi>and Spirits of juſt men made perfect:</hi> he is before the Throne triumphing; and if you could hear him, he would ſay to you, <hi>Weep not for me,</hi> ſhed not one tear for me; but <hi>weep for your ſelves.</hi> You have not one doubt, not one fear concerning his everlaſting happineſs; and Oh what a quieting conſideration ſhould that be to you!</p>
+            <p n="2">2. To you that were his Church and People, I ſhould have ſpoken a few words to you: 1. Be you ſenſible of your loſs, lay to heart the breach that God hath made amongſt you; and ſuch breaches as this ſhould not be look'd upon with
+<pb n="27" facs="tcp:54326:18"/>unbroken hearts: You know how they la<g ref="char:EOLhyphen"/>mented <hi>Samuel</hi> when he died; and how they lamented <hi>Aaron</hi> and <hi>Stephen</hi> when they died; and you have great cauſe of lamenta<g ref="char:EOLhyphen"/>tion. You will ſay, We have wept again and again. I, but weep not only for your loſs, but for your ſins: we can many times pour out floods of tears upon our loſſes, when we can look upon Sin that was the true cauſe of all, with dry eyes all the while. I tell you, if your heads were Fountains of waters, and your eyes Rivers of tears, you could never enough be<g ref="char:EOLhyphen"/>wail thoſe ſins by which you have ſinned ſo ma<g ref="char:EOLhyphen"/>ny godly Miniſters into their graves of late: for when faithful and pious Miniſters are going off ſo faſt from us, 'tis a ſad ſign of ſome ſevere judgment that is coming on apace: therefore lay this loſs to heart.</p>
+            <p>To loſe ſuch a painful, pious, faithful La<g ref="char:EOLhyphen"/>bourer as he was, it is no little loſs. He had a large heart, as the ſand upon the Sea-ſhore, for the doing of good: he was one that did be<g ref="char:EOLhyphen"/>ſtir himſelf to do good: and did much work in a little time. Oh, my Brethren, he is one that will be dearly miſt by all: His Family will miſs him, and his People will miſs him; the Countrey will miſs him, and the City will
+<pb n="28" facs="tcp:54326:19"/>miſs him too: Saints will miſs him to build them up in their Faith: and Sinners will miſs him, to awaken and rouſe them out of their ſins: the Poor will miſs him, to raiſe Colle<g ref="char:EOLhyphen"/>ctions for them, to refreſh their bowels: and the rich will miſs him, to ſpur and quicken them up to be rich in good works.</p>
+            <p>The ſecond thing I would ſay to you, is this: That you would live as thoſe that have ſate under the Miniſtry of ſo pious and worthy a Perſon; how is that, you will ſay? firſt, walk as Children of Purity: Secondly, as Children of Peace: for he was a Friend to both.</p>
+            <p>
+               <hi>Firſt,</hi> Walk as Children of Purity: thoſe pure, heavenly and ſpiritual Exhortations that you have heard from him, they do call for a pure and heavenly Converſation from you: though he be dead and buried, do not let his Sermons die and be buried with him; the death of the Miniſter ſhould indeed revive his Inſtructions, and enliven and imprint the re<g ref="char:EOLhyphen"/>membrance of them the more deeply upon the hearts of the people.</p>
+            <p>
+               <hi>Secondly,</hi> Walk as the Children of peace too, and maintain Peace and Unity amongſt your ſelves; though the Shepherd be ſmitten, yet
+<pb n="29" facs="tcp:54326:19"/>let not the Sheep be ſcatter'd; let not this breach that God hath made, be the occaſion of any more breaches amongſt you: Remember the words of <hi>David, How ſweet and lovely a thing it is, for brethren to live together in unity.</hi> Remember the words of Chriſt, That <hi>bleſſed are the peace-makers.</hi> And read over thoſe words of <hi>Paul</hi> when you come home, 1 <hi>Cor.</hi> 1.10, for I have not time to read them: Take heed, Bre<g ref="char:EOLhyphen"/>thren of walking ſo, as to bring a diſhonour and an evil report upon your Paſtor and Teacher now he is gone: O! think with your ſelves, Did my Paſtor teach me to be proud, or to be covetous, or to be unjuſt, or to be cenſorious? If he could return again upon the earth, and ſee any of you ſuch, Would he not ſay to you, Did you learn theſe things of me?</p>
+            <p>
+               <hi>Laſtly,</hi> A word of Counſel in general, and ſo I have done. Do we deſire to have peace in our end? I, that is it which we all deſire. Would we fain dye comfortably? Who does not deſire to do ſo? Here is your way; Two things I would leave with you:</p>
+            <p n="1">1. <hi>Mark the perfect and upright man,</hi> to imi<g ref="char:EOLhyphen"/>tate his example. 'Tis the command of the Apoſtle, <hi>Heb.</hi> 13.7, He would have them
+<pb n="30" facs="tcp:54326:20"/>mark them that labour amongſt them, and fol<g ref="char:EOLhyphen"/>low their converſation: O! it is a matter of great concernment, whom you follow, whom you imitate! Alas, if you live with the wicked, if you follow vain perſons, you muſt dye with them; do not think to live ſalſly and diſſem<g ref="char:EOLhyphen"/>blingly, and yet to dye comfortably; do not think to live with <hi>Pharoah,</hi> and yet to dye with <hi>Moſes;</hi> to live with <hi>Judas,</hi> to live with <hi>Demas,</hi> and yet to dye with <hi>Paul:</hi> No, we muſt live with the pure, with <hi>upright</hi> and <hi>perfect men;</hi> we muſt make them to be our examples, if we would dye with them; we ſhould make a good uſe of every good example that God hath given us. A godly Man when he dyes, bequeaths us this Legacy, he leaves us the Picture of his Life to walk by.</p>
+            <p n="2">2. You muſt not only mark the <hi>perfect mans</hi> example, and behold the <hi>upright man;</hi> but you your ſelves muſt live ſo, as you may give and leave a good example to others: Brethren, 'tis not only the duty of thoſe that teach you, to give a good example, as <hi>Paul</hi> exhorts <hi>Timothy</hi> and <hi>Titus</hi> to be <hi>examples to the believers, in word, in converſation, in charity, in faith, in pu<g ref="char:EOLhyphen"/>rity:</hi> But it is the duty of hearers to give good
+<pb n="31" facs="tcp:54326:20"/>examples one to another. The Apoſtle exhorts aged Women, <hi>Tit.</hi> 2.2, by their example to teach the younger Women; and exhorts Wives, to have their converſation ſo in fear, (1 <hi>Pet.</hi> 1.3,) that their Husbands beholding their good con<g ref="char:EOLhyphen"/>verſation, may be won to the truth; it may be thy Husband is not won by the hearing of the Word, but thou ſhouldſt labour to be ſo holy, humble, loving, and obedient in thy conver<g ref="char:EOLhyphen"/>ſation, that hereby thou maiſt convince him. <hi>What knoweſt thou, O man, whether thou ſhalt ſave thy wife? and what knoweſt thou, O woman, whether thou ſhalt ſave thy husband?</hi> Are there not many Husbands that have cauſe to bleſs God for their godly Wives? Are there not many Wives, that have cauſe to bleſs God for their godly Husbands? Are there not many Children, that have cauſe to bleſs God for their godly Parents? There are many in Heaven who will be bleſſing God to all eternity, that ever they ſaw the faces of ſuch and ſuch per<g ref="char:EOLhyphen"/>ſons, by whoſe holy converſations they were won to the love and liking of the ways of God.</p>
+            <p>Now then, Labour to imitate the examples
+<pb n="32" facs="tcp:54326:21"/>of the godly that have gone before you, and to live ſo your ſelves, that you may be an ex<g ref="char:EOLhyphen"/>ample to thoſe that are round about you; this is the way to have your end peace; and then this Epitaph may be written upon your Graves: <hi>Mark the perfect man, and behold the upright: for the end of that man is peace.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
